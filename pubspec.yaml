@@ -1,0 +1,41 @@
+name: justread
+description: "A lightweight Flutter EPUB reader with handcrafted pagination, bookmark support, and Riverpod state management."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # EPUB parsing
+  epubx: ^4.0.0
+
+  # File picker for importing EPUB files
+  file_picker: ^8.0.0
+
+  # Path provider for accessing storage
+  path_provider: ^2.1.0
+
+  # Permission handler for storage access
+  permission_handler: ^11.0.0
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # UUID generation for bookmarks
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
